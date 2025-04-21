@@ -8,7 +8,7 @@ nginx 웹 서버 컨테이너를 실행하세요.
 
 정답:
 ```bash
-$ 
+$ docker run -d --name web-server -p 8080:80 nginx
 ```
 
 ## 2. MySQL 컨테이너 실행
